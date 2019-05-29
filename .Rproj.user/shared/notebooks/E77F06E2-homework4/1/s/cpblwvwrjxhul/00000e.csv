@@ -1,0 +1,11 @@
+"0","# df_commit"
+"0","df_commit <- data.frame("
+"0","  author=commitHistory[[10]][[""commit""]][[""author""]][[""name""]],"
+"0","  commiter=commitHistory[[10]][[""commit""]][[""committer""]][[""name""]],"
+"0","  commitDate=commitHistory[[10]][[""commit""]][[""commiter""]][[""date""]],"
+"0","  sha=commitHistory[[10]][[""sha""]],"
+"0","  stringsAsFactors=F"
+"0",")"
+"2","Error in data.frame(author = commitHistory[[10]][[""commit""]][[""author""]][[""name""]],  : 
+  arguments imply differing number of rows: 1, 0
+"

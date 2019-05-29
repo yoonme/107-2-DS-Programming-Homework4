@@ -1,0 +1,2 @@
+"0","library(httr) "
+"0","commitHistory <- content(GET(""https://api.github.com/repos/r-hub/cranlogs/commits""))"
